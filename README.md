@@ -37,5 +37,6 @@ Save the code in a file named SudokuSolver.java.
 
 Compile the program:
 javac SudokuSolver.java
+
 Run it:
 java SudokuSolver
