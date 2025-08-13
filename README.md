@@ -24,6 +24,7 @@ For each number, it checks if placing it is valid (row, column, and 3×3 box che
 If valid, it proceeds; otherwise, it backtracks until the puzzle is solved.
 
 📂 Code Structure
+
 solve() → The recursive backtracking function that fills the board.
 
 isValid() → Checks if a number can be placed in a given cell.
@@ -31,17 +32,10 @@ isValid() → Checks if a number can be placed in a given cell.
 printBoard() → Prints the Sudoku board in a clean format.
 
 ▶️ How to Run
+
 Save the code in a file named SudokuSolver.java.
 
 Compile the program:
-
-bash
-Copy
-Edit
 javac SudokuSolver.java
 Run it:
-
-bash
-Copy
-Edit
 java SudokuSolver
